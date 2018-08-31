@@ -71,7 +71,7 @@ header {
 
 .projects div a img {
     width: 259px;
-    height: 194;
+    height: 194px;
 }
 
 .links a {
@@ -84,7 +84,7 @@ header {
 
 .links a img {
     width: 83px;
-    height: 84;
+    height: 84px;
 }
 
 @media (min-width: 400px) {
