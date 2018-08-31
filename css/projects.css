@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+:root {
+    font-family: 'Aldrich', sans-serif;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #444444;
+    color: #aaaaaa;
+}
+
+header img {
+    width: 194px;
+}
+
+header nav a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+article > p {
+    max-width: 622px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+    footer {
+        text-align: right;
+    }
+}

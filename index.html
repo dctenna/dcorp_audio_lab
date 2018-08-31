@@ -11,68 +11,73 @@
     <meta http-equiv="refresh" content="90">
     <link rel=icon href="img/favicon.ico" sizes="16x16">
     <title>DCorp Audio Lab</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="The logo of DCorp Audio Lab" width="194" height="80">
+        <img src="img/logo.png" alt="The logo of DCorp Audio Lab">
         <nav>
-            <a href="about.html">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#links">Links</a>
-            <a href="#contacts">Contacts</a>
+            <ul>
+                <li class="nav_about"><a href="about.html">About</a></li>
+                <li class="nav_projects"><a href="#projects">Projects</a></li>
+                <li class="nav_links"><a href="#links">Links</a></li>
+                <li class="nav_contacts"><a href="#contacts">Contacts</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="projects">
-        <h3 id="projects">Projects</h3>
-        <a href="mcdac3_0.html">
-          <img src="img/mcdac3_0.jpg" alt="McDAC 3.0" width="259" height="194">
-        McDAC 3.0                                        
-        </a>
-        <a href="adc_1804.html">
-          <img src="img/adc_1804.jpg" alt="ADC 1804" width="259" height="194">
-        ADC 1804
-        </a>
-        <a href="dac3_1x_upgrade.html">
-          <img src="img/dac3_1x_upgrade.jpg" alt="Audio Note DAC3.1X upgrade" width="259" height="194">
-        Audio Note DAC3.1X upgrade
-        </a>
-    </section>
+    <main>
+        <section class="projects">
+            <h2 id="projects">Projects</h2>
+            <div class="project_card">
+                <a href="mcdac3_0.html">
+                   <img src="img/mcdac3_0.jpg" alt="McDAC 3.0">
+                McDAC 3.0                                        
+                </a>
+                <a href="adc_1804.html">
+                   <img src="img/adc_1804.jpg" alt="ADC 1804">
+                ADC 1804
+                </a>
+                <a href="dac3_1x_upgrade.html">
+                   <img src="img/dac3_1x_upgrade.jpg" alt="Audio Note DAC3.1X upgrade">
+                 Audio Note DAC3.1X upgrade
+                </a>
+            </div>
+        </section>
 
-    <section class="links">
-        <h3 id="links">Links</h3>
-
-        <a href="https://www.facebook.com/profile.php?id=100026960090239">
-            <img src="img/facebook_icon.ico" alt="Facebook icon" width="83" height="84">
+        <section class="links">
+            <h2 id="links">Links</h2>
+            <a href="https://www.facebook.com/profile.php?id=100026960090239">
+            <img src="img/facebook_icon.ico" alt="Facebook icon">
         https://www.facebook.com/profile.php?id=100026960090239
         </a>
-    </section>
+        </section>
 
-    <section class="contacts">
-        <h3 id="contacts">Contacts</h3>
-        <p>We are here to answer any questions you may have about our projects. Reach out to us and we'll respond as soon as we can.</p>
+        <section class="contacts">
+            <h2 id="contacts">Contacts</h2>
+            <p>We are here to answer any questions you may have about our projects. Reach out to us and we'll respond as soon as we can.</p>
 
-        <form method="POST" action="https://formspree.io/dctenna@gmail.com">
-            <fieldset>
-                <legend>Please answer a few questions:</legend>
-                <label>Your name:</label><br/>
-                <input type="text" name="name" placeholder="Your name" id="client-name" required>
-                <br/>
-                <label>Email address:</label><br/>
-                <input type="email" name="email" placeholder="Email address" id="client-email" required>
-                <br/>
-                <label>Your message:</label>
-                <br/>
-                <textarea name="message" placeholder="Your message" id="client-message" rows="10" cols="30"></textarea>
-                <br/>
-                <input type="submit">
-                <input type="reset">
-            </fieldset>
-        </form>
-    </section>
-    <br/>
-    <br/>
+            <form method="POST" action="https://formspree.io/dctenna@gmail.com">
+                <fieldset>
+                    <legend>Please answer a few questions:</legend>
+                    <label>Your name:</label><br/>
+                    <input type="text" name="name" placeholder="Your name" id="client-name" required>
+                    <br/>
+                    <label>Email address:</label><br/>
+                    <input type="email" name="email" placeholder="Email address" id="client-email" required>
+                    <br/>
+                    <label>Your message:</label>
+                    <br/>
+                    <textarea name="message" placeholder="Your message" id="client-message" rows="10" cols="30"></textarea>
+                    <br/>
+                    <input type="submit">
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
     <footer>Copyright © 2018 DCorp AudioLab.</footer>
 
 </body>
