@@ -15,15 +15,48 @@ header img {
     width: 194px;
 }
 
-header nav a {
+header nav ul {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
     color: #aaaaaa;
     text-decoration: none;
     font-size: 24px;
-    margin-left: 50px;
+}
+
+.nav_home a:hover {
+    color: lemonchiffon;
+    text-decoration: underline;
+}
+
+.nav_about a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+.nav_projects a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+.nav_links a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.nav_contacts a:hover {
+    color: mediumorchid ;
+    text-decoration: underline;
 }
 
 article {
-    margin: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
 }
 
 article {
@@ -36,19 +69,19 @@ article h3 {
     font-size: 24px;
 }
 
- article img {
-    width: 503px;
+article img {
+    width: 100%;
+    max-width: 503px;
     background-position: center;
     background-size: cover;
-    }
+}
 
-    .about_text {
-        margin-top: 20px;
-        margin-bottom: 15px;
-        margin-left: 5px;
-        max-width: 503px;
-        font-size: 18px;
-    }
+.about_text {
+    max-width: 503px;
+    font-size: 18px;
+    width: 100%;
+    text-align: justify;
+}
 
 footer {
     left: 0;

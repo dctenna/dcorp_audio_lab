@@ -15,27 +15,64 @@ header img {
     width: 194px;
 }
 
-header nav a {
+header nav ul {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
     color: #aaaaaa;
     text-decoration: none;
     font-size: 24px;
-    margin-left: 50px;
+}
+
+.nav_home a:hover {
+    color: lemonchiffon;
+    text-decoration: underline;
+}
+
+.nav_about a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+.nav_projects a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+.nav_links a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+.nav_contacts a:hover {
+    color: mediumorchid ;
+    text-decoration: underline;
 }
 
 article > p {
     max-width: 622px;
     text-align: justify;
     font-size: 18px;
+    width: 100%;
 }
 
 article {
+    margin: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 article img {
-    width: 622px;
+    max-width: 622px;
+    width: 100%;
 }
 
 footer {

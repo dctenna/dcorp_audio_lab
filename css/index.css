@@ -29,6 +29,11 @@ header nav ul li a {
     font-size: 24px;
 }
 
+.nav_home a:hover {
+    color: lemonchiffon;
+    text-decoration: underline;
+}
+
 .nav_about a:hover {
     color: coral;
     text-decoration: underline;
