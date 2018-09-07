@@ -128,10 +128,14 @@ input[type=text], input[type=email]  {
     border-radius: 4px;
     background-color: #f8f8f8;
     width: 300px;
+    font-size: 12px;
+    font-family: aldrich;
 }
 
 input[type=text]:focus, input[type=email]:focus {
     border: 3px solid lightblue;
+        font-size: 12px;
+    font-family: aldrich;
 }
 
 textarea {
@@ -139,6 +143,8 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     width: 300px;
+    font-size: 12px;
+    font-family: aldrich;
 }
 
 input[type=submit], input[type=reset] {
