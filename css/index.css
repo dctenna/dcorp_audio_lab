@@ -123,11 +123,15 @@ header {
     }
 }
 
+.contacts p {
+    margin: 15px 15px 15px 15px;
+}
+
 input[type=text], input[type=email]  {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 300px;
+    width: 280px;
     font-size: 12px;
     font-family: aldrich;
 }
@@ -142,7 +146,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 300px;
+    width: 280px;
     font-size: 12px;
     font-family: aldrich;
 }
@@ -153,7 +157,7 @@ input[type=submit], input[type=reset] {
     color: white;
     padding: 10px 33px;
     text-decoration: none;
-    margin: 4px 4px;
+    margin: 10px 4px;
     cursor: pointer;
 }
 
