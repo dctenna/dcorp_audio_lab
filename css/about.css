@@ -4,10 +4,13 @@
     font-family: 'Aldrich', sans-serif;
 }
 
+.background_color {
+    background-color: #444444;
+}
+
 body {
     max-width: 1000px;
     margin: auto;
-    background-color: #444444;
     color: #aaaaaa;
 }
 

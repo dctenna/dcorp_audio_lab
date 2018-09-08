@@ -173,6 +173,10 @@ form {
     }
 }
 
+.buttons {
+    text-align: center;
+}
+
 footer {
     left: 0;
     bottom: 0;
