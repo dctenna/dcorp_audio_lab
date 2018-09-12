@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-                let images = ["../../img/background1.jpg", "../../img/background2.jpg", "../../img/background3.jpg"];
+                let images = ["img/background1.jpg", "img/background2.jpg", "img/background3.jpg"];
                 let index = -1;
 
                 window.setInterval(function () {
@@ -7,5 +7,3 @@ document.addEventListener("DOMContentLoaded", function () {
                     $('header').css({'background':"url('" + images[index] + "')"}); 
                 }, 5000);
             });
-
-
