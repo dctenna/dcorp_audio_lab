@@ -135,7 +135,7 @@ header {
 }
 
 legend {    
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 fieldset {
@@ -160,7 +160,7 @@ input[type=email] {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 263px;
+    width: 100%;
     font-size: 12px;
     font-family: aldrich;
 }
@@ -176,7 +176,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 263px;
+    width: 100%;
     font-size: 12px;
     font-family: aldrich;
 }
@@ -237,4 +237,8 @@ nav {
   height: 700px;
   object-fit: cover;
   overflow: hidden;
+}
+
+.buttons {
+    width: 100%;
 }
