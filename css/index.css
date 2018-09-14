@@ -4,6 +4,13 @@
     font-family: 'Aldrich', sans-serif;
 }
 
+#header,
+#main,
+#footer {
+    font-family: 'Aldrich', sans-serif;
+}
+
+
 body {
     max-width: 1000px;
     margin: auto;
@@ -50,19 +57,19 @@ header nav ul li a {
 }
 
 .nav_contacts a:hover {
-    color: mediumorchid ;
+    color: mediumorchid;
     text-decoration: underline;
 }
 
 header {
-    background-image:  url("../img/background_blur.jpg");
     width: 100%;
-    height: 736px;
     background-position: center;
     background-size: cover;
 }
 
-#projects, #links, #contacts {
+#projects,
+#links,
+#contacts {
     margin: 30px;
     text-align: center;
 }
@@ -127,18 +134,41 @@ header {
     margin: 15px 15px 15px 15px;
 }
 
-input[type=text], input[type=email]  {
+legend {    
+    font-size: 1.25rem;
+}
+
+fieldset {
+    text-align: center;
+}
+.label {
+    text-align: left;
+}
+@media (min-width: 400px) {
+    fieldset {
+        text-align: left;
+    }
+    input[type=text],
+input[type=email], textarea {
+        width: 285px;
+    }
+}
+
+
+input[type=text],
+input[type=email] {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 280px;
+    width: 263px;
     font-size: 12px;
     font-family: aldrich;
 }
 
-input[type=text]:focus, input[type=email]:focus {
+input[type=text]:focus,
+input[type=email]:focus {
     border: 3px solid lightblue;
-        font-size: 12px;
+    font-size: 12px;
     font-family: aldrich;
 }
 
@@ -146,16 +176,17 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    width: 280px;
+    width: 263px;
     font-size: 12px;
     font-family: aldrich;
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit],
+input[type=reset] {
     background-color: grey;
     border: none;
     color: white;
-    padding: 10px 33px;
+    padding: 10px 27px;
     text-decoration: none;
     margin: 10px 4px;
     cursor: pointer;
@@ -164,17 +195,14 @@ input[type=submit], input[type=reset] {
 form {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
 }
 
 @media (min-width: 700px) {
     form {
-    justify-content: center;
+        justify-content: center;
     }
-}
-
-.buttons {
-    text-align: center;
 }
 
 footer {
@@ -189,4 +217,24 @@ footer {
     footer {
         text-align: right;
     }
+}
+
+nav {
+    position: absolute;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+}
+#navigation {
+    font-size: 12px;
+}
+
+.carousel .carousel-inner img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  overflow: hidden;
 }

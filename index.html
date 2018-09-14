@@ -11,24 +11,39 @@
     <meta http-equiv="refresh" content="90">
     <link rel=icon href="img/favicon.ico" sizes="16x16">
     <title>DCorp Audio Lab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.png" alt="The logo of DCorp Audio Lab">
-        <nav>
+    <header id="header">
+
+        <img class="logo" src="img/logo.png" alt="The logo of DCorp Audio Lab">
+        <nav id="navigation">
             <ul>
                 <li class="nav_home"><a href="index.html">Home</a></li>
                 <li class="nav_about"><a href="about.html">About</a></li>
-                <li class="nav_projects"><a href="#projects">Projects</a></li>
-                <li class="nav_links"><a href="#links">Links</a></li>
-                <li class="nav_contacts"><a href="#contacts">Contacts</a></li>
+                <li class="nav_projects"><a class="smooth" href="#projects">Projects</a></li>
+                <li class="nav_links"><a class="smooth" href="#links">Links</a></li>
+                <li class="nav_contacts"><a class="smooth" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/background1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/background2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/background3.jpg" alt="Third slide">
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main>
+    <main id="main">
         <section class="projects">
             <h2 id="projects">Projects</h2>
             <div class="project_card">
@@ -61,13 +76,13 @@
             <form method="POST" action="https://formspree.io/dctenna@gmail.com">
                 <fieldset>
                     <legend>Please answer a few questions:</legend>
-                    <label>Your name:</label><br/>
+                    <label class="label">Your name:</label><br/>
                     <input type="text" name="name" placeholder="Your name" id="client-name" required>
                     <br/>
-                    <label>Email address:</label><br/>
+                    <label class="label">Email address:</label><br/>
                     <input type="email" name="email" placeholder="Email address" id="client-email" required>
                     <br/>
-                    <label>Your message:</label>
+                    <label class="label">Your message:</label>
                     <br/>
                     <textarea name="message" placeholder="Your message" id="client-message" rows="10" cols="30"></textarea>
                     <br/>
@@ -80,10 +95,13 @@
         </section>
     </main>
 
-    <footer>Copyright © 2018 DCorp AudioLab.</footer>
+    <footer id="footer">Copyright © 2018 DCorp AudioLab.</footer>
 
-   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-   <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 
 </html>
